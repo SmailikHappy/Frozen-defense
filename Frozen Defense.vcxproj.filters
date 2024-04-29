@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="game.cpp" />
+    <ClCompile Include="surface.cpp">
+      <Filter>template files</Filter>
+    </ClCompile>
+    <ClCompile Include="template.cpp">
+      <Filter>template files</Filter>
+    </ClCompile>
+    <ClCompile Include="playzone.cpp">
+      <Filter>interaction scripts\scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="menu.cpp">
+      <Filter>interaction scripts\scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="scenemanager.cpp">
+      <Filter>tools</Filter>
+    </ClCompile>
+    <ClCompile Include="button.cpp">
+      <Filter>classes</Filter>
+    </ClCompile>
+    <ClCompile Include="enemy.cpp">
+      <Filter>classes</Filter>
+    </ClCompile>
+    <ClCompile Include="towerplacement.cpp">
+      <Filter>smth</Filter>
+    </ClCompile>
+    <ClCompile Include="snowtower.cpp">
+      <Filter>classes\towers</Filter>
+    </ClCompile>
+    <ClCompile Include="icetower.cpp">
+      <Filter>classes\towers</Filter>
+    </ClCompile>
+    <ClCompile Include="flametower.cpp">
+      <Filter>classes\towers</Filter>
+    </ClCompile>
+    <ClCompile Include="towerpanel.cpp">
+      <Filter>classes</Filter>
+    </ClCompile>
+    <ClCompile Include="mouseinteraction.cpp">
+      <Filter>interaction scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="buttoninteraction.cpp">
+      <Filter>interaction scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="draggerinteraction.cpp">
+      <Filter>interaction scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="towerinteraction.cpp">
+      <Filter>interaction scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="towerdragger.cpp">
+      <Filter>classes</Filter>
+    </ClCompile>
+    <ClCompile Include="stonetower.cpp">
+      <Filter>classes\towers</Filter>
+    </ClCompile>
+    <ClCompile Include="tower.cpp">
+      <Filter>classes</Filter>
+    </ClCompile>
+    <ClCompile Include="globalvariables.cpp">
+      <Filter>tools</Filter>
+    </ClCompile>
+    <ClCompile Include="classvariables.cpp">
+      <Filter>tools</Filter>
+    </ClCompile>
+    <ClCompile Include="healthbar.cpp">
+      <Filter>classes</Filter>
+    </ClCompile>
+    <ClCompile Include="pause.cpp">
+      <Filter>interaction scripts\scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="visualhandler.cpp">
+      <Filter>smth</Filter>
+    </ClCompile>
+    <ClCompile Include="gamehandler.cpp">
+      <Filter>smth</Filter>
+    </ClCompile>
+    <ClCompile Include="gameover.cpp">
+      <Filter>interaction scripts\scenes</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="game.h" />
+    <ClInclude Include="surface.h">
+      <Filter>template files</Filter>
+    </ClInclude>
+    <ClInclude Include="template.h">
+      <Filter>template files</Filter>
+    </ClInclude>
+    <ClInclude Include="globalvariables.h">
+      <Filter>tools</Filter>
+    </ClInclude>
+    <ClInclude Include="playzone.h">
+      <Filter>interaction scripts\scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="menu.h">
+      <Filter>interaction scripts\scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="scenemanager.h">
+      <Filter>tools</Filter>
+    </ClInclude>
+    <ClInclude Include="button.h">
+      <Filter>classes</Filter>
+    </ClInclude>
+    <ClInclude Include="classvariables.h">
+      <Filter>tools</Filter>
+    </ClInclude>
+    <ClInclude Include="enemy.h">
+      <Filter>classes</Filter>
+    </ClInclude>
+    <ClInclude Include="towerplacement.h">
+      <Filter>smth</Filter>
+    </ClInclude>
+    <ClInclude Include="snowtower.h">
+      <Filter>classes\towers</Filter>
+    </ClInclude>
+    <ClInclude Include="icetower.h">
+      <Filter>classes\towers</Filter>
+    </ClInclude>
+    <ClInclude Include="flametower.h">
+      <Filter>classes\towers</Filter>
+    </ClInclude>
+    <ClInclude Include="towerpanel.h">
+      <Filter>classes</Filter>
+    </ClInclude>
+    <ClInclude Include="mouseinteraction.h">
+      <Filter>interaction scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="buttoninteraction.h">
+      <Filter>interaction scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="draggerinteraction.h">
+      <Filter>interaction scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="towerinteraction.h">
+      <Filter>interaction scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="towerdragger.h">
+      <Filter>classes</Filter>
+    </ClInclude>
+    <ClInclude Include="stonetower.h">
+      <Filter>classes\towers</Filter>
+    </ClInclude>
+    <ClInclude Include="tower.h">
+      <Filter>classes</Filter>
+    </ClInclude>
+    <ClInclude Include="healthbar.h">
+      <Filter>classes</Filter>
+    </ClInclude>
+    <ClInclude Include="pause.h">
+      <Filter>interaction scripts\scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="visualhandler.h">
+      <Filter>smth</Filter>
+    </ClInclude>
+    <ClInclude Include="gamehandler.h">
+      <Filter>smth</Filter>
+    </ClInclude>
+    <ClInclude Include="gameover.h">
+      <Filter>interaction scripts\scenes</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="readme_template_use.txt" />
+    <Text Include="Readme.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="template files">
+      <UniqueIdentifier>{176d0605-61d4-43e8-b06c-6cd3fe3aea8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tools">
+      <UniqueIdentifier>{8768f5dc-e8d2-4fb5-bd6a-90791c80d4df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="classes">
+      <UniqueIdentifier>{c7dbda80-383e-45d7-869f-3a763a0454c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="smth">
+      <UniqueIdentifier>{b003b0b8-b250-475a-990f-c8a5d207132a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="interaction scripts">
+      <UniqueIdentifier>{90a78edb-00b2-4a79-b98d-8601068052ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="classes\towers">
+      <UniqueIdentifier>{e4d99d4c-d524-430f-a02e-1edaefc79bfd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="interaction scripts\scenes">
+      <UniqueIdentifier>{63663d3c-7165-4e05-a86e-c2ea2da51a40}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
