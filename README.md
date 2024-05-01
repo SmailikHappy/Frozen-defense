@@ -28,6 +28,8 @@ ___
 This project is considered complete, and not supported anymore. It was part of university intake, which I passed successfully.
 I was a complete beginner and learning OOP from a complete basics when I was developing this project.
 
+> This project was undertaken during my early stages as a programmer, and my main objective was to learn new concepts rather than produce polished code. As a result, **<u>the quality of the code is lacking.</u>**
+
 ## Creadits
 
 Credits to [3Dgep](https://www.3dgep.com/cpp-fast-track-2-template/) as the template for the developed game is taken from their website.
